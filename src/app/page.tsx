@@ -69,7 +69,90 @@ export default function Home() {
             <img src="/img-card (2).png" className="rounded-[32px]" alt="" />
           </div>
         </div>
-        <div></div>
+        <div className="flex flex-row justify-between items-end p-0 gap-[270px] w-[1240px] h-[120px] left-0 mt-[770px]">
+          <div className="flex flex-row items-end p-0 gap-[25px]  w-[703px] h-[120px]">
+            <div className="flex flex-col items-start p-0 gap-[8px] w-[213px] h-[120px]">
+              <h2 className=" w-[123px] h-[72px] font-['Poppins'] font-bold text-[64px] leading-[72px] not-italic text-[#FFB84C]">300</h2>
+              <p className="w-[134px] h-[40px] font-['Poppins'] font-normal text-[32px] leading-10 text-white">creators</p>
+            </div>
+            <div className="flex flex-col items-start p-0 gap-[8px] w-[213px] h-[120px]">
+              <h2 className=" w-[123px] h-[72px] font-['Poppins'] font-bold text-[64px] leading-[72px] not-italic text-[#FFB84C]">14.4k</h2>
+              <p className="w-[134px] h-[40px] font-['Poppins'] font-normal text-[32px] leading-10 text-white">users</p>
+            </div>
+            <div className="flex flex-col items-start p-0 gap-[8px] w-[213px] h-[120px]">
+              <h2 className=" w-[123px] h-[72px] font-['Poppins'] font-bold text-[64px] leading-[72px] not-italic text-[#FFB84C]">9.11k</h2>
+              <p className="w-[134px] h-[40px] font-['Poppins'] font-normal text-[32px] leading-10 text-white">session</p>
+            </div>
+          </div>
+          <div className="flex flex-row items-center p-0 gap-2 mx-auto w-[295px] h-[80px]">
+            <h1 className="w-[215px] h-[80px] font-['Poppins'] font-medium text-[32px] leading-10 text-white">Explore the marketplace</h1>
+            <div className="w-16 h-16 bg-[#FFB84C] rounded-full">
+            <svg width="15" className="ml-6 mt-5" height="26" viewBox="0 0 15 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1L13 13L1 25" stroke="#2B2730" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*features Section */}
+      <div className="flex flex-row items-start p-0 gap-[30px] absolute w-[1240px] h-[592px] left-1/2 transform -translate-x-1/2 top-[2620px] ml-[20px]">
+        <div className="flex flex-col justify-end items-start p-0 gap-y-6 w-[604px] h-[276px]">
+          <h1 className="w-[508px] h-[128px] font-['Poppins'] font-[700] text-[64px] leading-[72px] not-italic tracking-tight text-[#2B2730]">Why become a creator?</h1>
+          <p className="w-[508px] h-[48px] font-['Poppins'] pt-3 font-[500] text-[16px] leading-[24px] not-italic tracking-tight text-[#2B2730]">Engage with your supporter and subscriber to sell your skills, knowledge and passions</p>
+          <button className="flex flex-row items-center mt-2 justify-center px-8 py-[20px] w-[182px] h-[52px] gap-2 bg-[#2B2730] rounded-[32px]">
+            <p className="w-[118px] h-[20px] font-['Inter'] font-medium text-sm  text-white">Become a creator </p>
+          </button>
+        </div>
+
+        <div className="flex flex-col items-start p-0 gap-8 w-[606px] h-[592px]">
+          <div className="flex flex-row items-start p-0 gap-8 w-[606px] h-[280px]">
+            <div className="flex flex-col items-start p-0 gap-4 w-[286px] h-[280px]">
+            <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="64" cy="64" r="15" stroke="#2B2730" stroke-width="4"/>
+                <circle cx="64" cy="64" r="60" stroke="#2B2730" stroke-width="4"/>
+                <circle cx="63.9922" cy="64" r="35" stroke="#2B2730" stroke-width="4"/>
+            </svg>
+            <h1 className="w-[286px] h-[32px] font-['Poppins']  font-bold text-[24px] leading-8 text-[#2B2730]">Engagement</h1>
+            <p className="w-[286px] h-[48px] font-['Poppins'] font-normal text-base  text-[#2B2730]">Engage on a deeper level with the fans that matter most</p>
+            </div>
+            <div className="flex flex-col items-start p-0 gap-4 w-[286px] h-[280px]">
+            <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="4" width="46.1538" height="46.1538" rx="8" stroke="#2B2730" stroke-width="4"/>
+                <path d="M70 27.3594H118.462M118.462 27.3594L105.348 40.923M118.462 27.3594L105.348 13.2307" stroke="#2B2730" stroke-width="4"/>
+                <path d="M58.4615 101.206H10M10 101.206L23.1131 114.769M10 101.206L23.1131 87.0769" stroke="#2B2730" stroke-width="4"/>
+                <rect x="72.3077" y="77.8462" width="46.1538" height="46.1538" rx="8" stroke="#2B2730" stroke-width="4"/>
+            </svg>
+            <h1 className="w-[286px] h-[32px] font-['Poppins']  font-bold text-[24px] leading-8 text-[#2B2730]">Autonomy </h1>
+            <p className="w-[286px] h-[48px] font-['Poppins'] font-normal text-base  text-[#2B2730]">Full autonomy on when and who you talk to.</p>
+            </div>
+          </div>
+          <div className="flex flex-row items-start p-0 gap-[34px] w-[606px] h-[280px]">
+              <div className="flex flex-col items-start p-0 gap-4 w-[286px] h-[280px]">
+              <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="64" cy="64" r="13" stroke="#2B2730" stroke-width="4"/>
+                  <circle cx="64" cy="64" r="58" stroke="#2B2730" stroke-width="4"/>
+                  <path d="M108.669 57.2552C112.816 60.8732 112.816 67.1268 108.669 70.7448C102.77 75.8903 94.664 82.5069 86.4208 87.8258C82.2994 90.4851 78.1818 92.795 74.3177 94.4346C70.4319 96.0835 66.9284 97 64 97C61.0716 97 57.5681 96.0835 53.6823 94.4346C49.8182 92.795 45.7006 90.4851 41.5792 87.8258C33.336 82.5069 25.2303 75.8903 19.3315 70.7448C15.1838 67.1268 15.1838 60.8732 19.3315 57.2552C25.2303 52.1097 33.336 45.4931 41.5792 40.1742C45.7006 37.5149 49.8182 35.205 53.6823 33.5654C57.5681 31.9165 61.0716 31 64 31C66.9284 31 70.4319 31.9165 74.3177 33.5654C78.1818 35.205 82.2994 37.5149 86.4208 40.1742C94.664 45.4931 102.77 52.1097 108.669 57.2552Z" stroke="#2B2730" stroke-width="4"/>
+              </svg>
+              <h1 className="w-[286px] h-[32px] font-['Poppins']  font-bold text-[24px] leading-8 text-[#2B2730]">Free </h1>
+            <p className="w-[286px] h-[48px] font-['Poppins'] font-normal text-base  text-[#2B2730]">No monthly fee or sign-up fee</p>
+              </div>
+              <div className="flex flex-col items-start p-0 gap-4 w-[286px] h-[280px]">
+              <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M54.0152 18.1886C57.9919 11.3419 67.8492 11.2537 71.9479 18.0281L96.2116 58.132L108.343 78.184L120.475 98.236C124.679 105.183 119.676 114.056 111.557 114.056H16.4427C8.40622 114.056 3.39245 105.346 7.42877 98.3966L19.0754 78.3446L30.722 58.2926L54.0152 18.1886Z" stroke="#2B2730" stroke-width="4"/>
+              </svg>
+              <h1 className="w-[286px] h-[32px] font-['Poppins']  font-bold text-[24px] leading-8 text-[#2B2730]">Earn  </h1>
+            <p className="w-[286px] h-[48px] font-['Poppins'] font-normal text-base  text-[#2B2730]">Add a new source of income that you can control</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      {/*cta Section */}
+      <div className="flex flex-col justify-center items-center px-[116px] py-0 gap-6 absolute w-[1240px] h-[420px] left-1/2 transform -translate-x-1/2 top-[3301px] bg-[#2B2730] rounded-[32px]">
+        <h1 className="w-[625px] h-[64px] font-['Poppins'] font-bold text-[56px]  leading-[64px] text-white">Engage without limits</h1>
+        <p className="w-[569px] h-[24px] font-['Poppins'] font-normal text-base leading-6 text-white">Join a growing community and talk directly with your favorites creators</p>
+        <button className="flex flex-row items-start  px-4 py-[20px]  gap-[10px] w-[145px] h-[52px] bg-[#FFB84C] rounded-full">
+          <p className="w-[81px] h-[20px] font-['Poppins'] ml-3 font-medium text-sm leading-5 text-[#2B2730]">Get Started </p>
+        </button>
       </div>
   </main>
   );
